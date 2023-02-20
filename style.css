@@ -1,0 +1,110 @@
+:root{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #eee;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 30px;
+    padding: 15px 10px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.link ul{
+    display: flex;
+    font-size: 1.4rem;
+    margin: 5px;
+    padding: 5px;
+}
+.link ul li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    color: whitesmoke;
+
+}
+
+.link ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    /*transition: .1s;*/
+}
+
+.link ul li a:hover{
+    color: #444;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.image-profil{
+    width: 30vw;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 50%;
+}
+
+.bio{
+    color: white;
+    padding: 50px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.detail{
+    display: flex;
+    padding: 10px;
+    margin: 50px 30px;
+    text-align: center;
+}
+
+.card{
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.card-title{
+    background-color: black;
+    padding: 3px 10px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+.card h5 {
+    /*
+    width: 100%;
+    display: inline-block;*/
+    /*padding: 10px;*/
+}
+
+
+
+footer{
+    display: flex;
+    height: 20px;
+    color: white;
+    padding: 15px 10px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
